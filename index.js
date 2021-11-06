@@ -114,10 +114,10 @@ let enemies = []
 let particles = []
 
 function init() {
-    let player = new Player(x, y, 10, 'white')
-    let projectiles = []
-    let enemies = []
-    let particles = []
+     player = new Player(x, y, 10, 'white')
+     projectiles = []
+     enemies = []
+     particles = []
     score = 0
     scoreEl.innerHTML = score
     bigScoreEl.innerHTML = score
